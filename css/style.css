@@ -1,0 +1,59 @@
+body {
+  width: 1024px;
+}
+header {
+  display: flex;
+  height: 375px;
+  width: 1024px;
+}
+.header-left {
+  background: url("../images/image.png");
+  width: 812px;
+  position: relative;
+}
+.header-left-container {
+  position: absolute;
+  width: 812px;
+}
+.arrow {
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 30px 0 0 30px;
+}
+.arrow-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-left-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 146px;
+  width: 100%;
+}
+.logo {
+  margin-right: 30px;
+}
+.player-name {
+  margin-left: 30px;
+  color: white;
+}
+h1 {
+  font-size: 32px;
+  width: 105px;
+  height: 87px;
+}
+h1 span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 22px;
+}
