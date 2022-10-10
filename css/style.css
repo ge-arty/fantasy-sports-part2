@@ -97,6 +97,23 @@ h2 {
   align-items: center;
   margin-top: 40px;
 }
+
+.owned {
+  font-size: 12px;
+  color: #afaaa9;
+}
+.owned-score {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.points-score {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.points {
+  font-size: 12px;
+  color: #afaaa9;
+}
 .header-scores2::after {
   content: "";
   display: block;
@@ -115,19 +132,32 @@ h2 {
   position: absolute;
   margin-top: 70px;
 }
-.owned {
-  font-size: 12px;
-  color: #afaaa9;
+.btn-section {
+  background-color: #e7e2e1;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
 }
-.owned-score {
-  margin-top: 10px;
-  font-size: 22px;
+.left-btn {
+  height: 50px;
+  width: 465px;
+  background-color: #e53f23;
+  margin-left: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.points-score {
-  margin-top: 10px;
-  font-size: 22px;
-}
-.points {
-  font-size: 12px;
-  color: #afaaa9;
+.right-btn {
+  height: 50px;
+  width: 465px;
+  margin-right: 30px;
+  border: 2px solid #e53f23;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
