@@ -246,6 +246,7 @@ h2 {
 .blocks-numbers {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 42px;
 }
 .shots {
